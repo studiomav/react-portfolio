@@ -14,9 +14,9 @@ export default function Footer()
 {
     return (
       <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-        <Chip icon={<GitHubIcon />} label="github" onClick={function(){handleClick('https://github.com/studiomav')}}/>
-        <Chip icon={<LinkedInIcon />} label="linkedin" onClick={function(){handleClick('https://www.linkedin.com/in/michael-virga-694833b0/')}}/>
-        <Chip icon={<LogoDevIcon />} label="dev.to" onClick={function(){handleClick('https://dev.to/mav')}}/>
+        <Chip sx={{ mx: 1 }} icon={<GitHubIcon />} label="github" onClick={function(){handleClick('https://github.com/studiomav')}}/>
+        <Chip sx={{ mx: 1 }} icon={<LinkedInIcon />} label="linkedin" onClick={function(){handleClick('https://www.linkedin.com/in/michael-virga-694833b0/')}}/>
+        <Chip sx={{ mx: 1 }} icon={<LogoDevIcon />} label="dev.to" onClick={function(){handleClick('https://dev.to/mav')}}/>
       </Box>
     );
 }
