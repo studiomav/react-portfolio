@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.516aebd2.css",
-    "main.js": "/react-portfolio/static/js/main.4eaea9a0.js",
+    "main.js": "/react-portfolio/static/js/main.0c2507a4.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/cinder.png": "/react-portfolio/static/media/cinder.5e369e0fea2d07784145.png",
+    "static/media/cheatleaf.png": "/react-portfolio/static/media/cheatleaf.abea6e033f70fbf0a3bb.png",
     "static/media/me.jpg": "/react-portfolio/static/media/me.d255ed2c4ffda05057cc.jpg",
     "static/media/weatherapp.png": "/react-portfolio/static/media/weatherapp.41b3d35019e24e930f91.png",
     "static/media/workday.png": "/react-portfolio/static/media/workday.52deae15b992020bf369.png",
@@ -11,13 +13,14 @@
     "static/media/readmegen.png": "/react-portfolio/static/media/readmegen.885fc5176d83c188d6dd.png",
     "static/media/techblog.png": "/react-portfolio/static/media/techblog.35e064edea192d8283bb.png",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.2d0e43ac141697500544.png",
+    "static/media/kittyclicker.png": "/react-portfolio/static/media/kittyclicker.193eac1433cb6afd36bf.png",
     "index.html": "/react-portfolio/index.html",
     "main.516aebd2.css.map": "/react-portfolio/static/css/main.516aebd2.css.map",
-    "main.4eaea9a0.js.map": "/react-portfolio/static/js/main.4eaea9a0.js.map",
+    "main.0c2507a4.js.map": "/react-portfolio/static/js/main.0c2507a4.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.516aebd2.css",
-    "static/js/main.4eaea9a0.js"
+    "static/js/main.0c2507a4.js"
   ]
 }
