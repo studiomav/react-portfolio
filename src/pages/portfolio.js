@@ -22,6 +22,9 @@ import notetaker from '../assets/notetaker.png';
 import readmegen from '../assets/readmegen.png';
 import weatherapp from '../assets/weatherapp.png';
 import workday from '../assets/workday.png';
+import cheatleaf from '../assets/cheatleaf.png';
+import kittyclicker from '../assets/kittyclicker.png';
+import cinder from '../assets/cinder.png';
 
 const theme = createTheme();
 
@@ -56,6 +59,72 @@ export default function Portfolio()
                 <Container maxWidth="md">
                     {/* End hero unit */}
                     <Grid container spacing={4}>
+
+                    <Grid item md={4}>
+                            <Card sx={{ maxWidth: 345 }}>
+                            <Link href='https://cheat-leaf.herokuapp.com/' style={{ textDecoration: 'none' }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="140"
+                                        image={cheatleaf}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                            Cheat Leaf
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                </Link>
+                            </Card>
+                        </Grid>
+
+                        <Grid item md={4}>
+                            <Card sx={{ maxWidth: 345 }}>
+                            <Link href='https://dev-loveio.herokuapp.com/' style={{ textDecoration: 'none' }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="140"
+                                        image={cinder}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                            Cinder
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            A programmer-focused dating/social app
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                </Link>
+                            </Card>
+                        </Grid>
+
+                        <Grid item md={4}>
+                            <Card sx={{ maxWidth: 345 }}>
+                            <Link href='https://github.com/Dantallope/CatClickerGame' style={{ textDecoration: 'none' }}>
+                                <CardActionArea>
+                                    <CardMedia
+                                        component="img"
+                                        height="140"
+                                        image={kittyclicker}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                            Kitty Clicker
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                            Just a cat clicking game
+                                        </Typography>
+                                    </CardContent>
+                                </CardActionArea>
+                                </Link>
+                            </Card>
+                        </Grid>
 
                         <Grid item md={4}>
                             <Card sx={{ maxWidth: 345 }}>

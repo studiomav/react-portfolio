@@ -9,11 +9,11 @@ import Resume from './pages/resume';
 export default function Main() {
   return (
     <Routes> {}
-      <Route exact path='/' element={<About/>}></Route>
       <Route exact path='/about' element={<About/>}></Route>
       <Route exact path='/portfolio' element={<Portfolio/>}></Route>
       <Route exact path='/contact' element={<Contact/>}></Route>
       <Route exact path='/resume' element={<Resume/>}></Route>
+      <Route exact path='/*' element={<About/>}></Route>
     </Routes>
   );
 }
