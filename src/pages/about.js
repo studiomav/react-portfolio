@@ -12,6 +12,7 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import mypic from '../assets/me.jpg';
 
 const theme = createTheme();
 
@@ -55,7 +56,7 @@ export default function About()
                             alignItems: 'center',
                         }}
                     >
-                        <Avatar src="me.jpg" variant="rounded" sx={{ width: 100, height: 100 }}/>
+                        <Avatar src={mypic} variant="rounded" sx={{ width: 100, height: 100 }}/>
                         <Typography
                             component="h1"
                             variant="h2"

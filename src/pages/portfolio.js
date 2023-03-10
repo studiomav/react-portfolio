@@ -16,6 +16,12 @@ import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { CardActionArea } from '@mui/material';
+import techblog from '../assets/techblog.png';
+import codequiz from '../assets/codequiz.png';
+import notetaker from '../assets/notetaker.png';
+import readmegen from '../assets/readmegen.png';
+import weatherapp from '../assets/weatherapp.png';
+import workday from '../assets/workday.png';
 
 const theme = createTheme();
 
@@ -58,7 +64,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="techblog.png"
+                                        image={techblog}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
@@ -80,7 +86,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="notetaker.png"
+                                        image={notetaker}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
@@ -102,7 +108,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="readmegen.png"
+                                        image={readmegen}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
@@ -124,7 +130,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="weatherapp.png"
+                                        image={weatherapp}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
@@ -146,7 +152,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="workday.png"
+                                        image={workday}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
@@ -168,7 +174,7 @@ export default function Portfolio()
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="codequiz.png"
+                                        image={codequiz}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">

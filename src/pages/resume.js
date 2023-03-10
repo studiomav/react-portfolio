@@ -13,6 +13,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { ListItem, ListItemText } from '@mui/material';
+import resume from '../assets/resume.pdf';
 
 const theme = createTheme();
 
@@ -78,7 +79,7 @@ export default function About()
                         </Typography>
                         <hr />
                         <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                            Interested in a resume? Download it <Link href='resume.pdf'>here.</Link>
+                            Interested in a resume? Download it <Link href={resume}>here.</Link>
                         </Typography>
                     </Box>
                 </Grid>
